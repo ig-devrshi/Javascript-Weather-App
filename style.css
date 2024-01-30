@@ -125,3 +125,9 @@ body {
   background: linear-gradient(150deg, rgb(233, 233, 233), rgb(110, 110, 110));
 } */
 
+@media (max-width:400px) {
+  .card {
+      width: 90%;
+  }
+};
+
