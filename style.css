@@ -35,10 +35,10 @@ body {
   background: white;
   color: black;
   padding: 20px 20px;
-  height: 30px;
+  height: 50px;
   border-radius: 5px;
   margin-right: 10px;
-  font-size: 20;
+  font-size: 30;
 }
 
 .search button {
@@ -47,7 +47,7 @@ body {
   background: white;
   color: black;
   padding: 5px 30px;
-  height: 40px;
+  height: 50px;
   border-radius: 5px;
   margin-right: 20px;
   font-size: 18;
@@ -83,17 +83,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 20px;
+  padding: 0 12px;
   margin-top: 50px;
 }
 .col {
   display: flex;
   align-items: center;
   text-align: left;
+  border-radius: 5%;
+  padding: 15px;
+  background-color: rgba(48, 48, 48, 0.196);
+  box-shadow: 0 2px 5px rgba(19, 19, 58, 0.607);  
 }
 .col img {
-  width: 40px;
-  margin-right: 10px;
+  width: 35px;
+  margin-right: 5px;
 }
 .humid,
 .wind {
@@ -105,8 +109,8 @@ body {
 }
 
 .display-weather{
-    display: block;
-    animation: animatezoom 0.6s;
+  display: block;
+  backdrop-filter: blur(50px);
 }
 
 .error {
@@ -116,3 +120,8 @@ body {
   margin-top: 10px;
   display: none;
 }
+
+/* .clouds{
+  background: linear-gradient(150deg, rgb(233, 233, 233), rgb(110, 110, 110));
+} */
+
