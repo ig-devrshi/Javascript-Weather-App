@@ -11,7 +11,7 @@ body {
 
 .card {
   width: 90%;
-  max-width: 470px;
+  max-width: 480px;
   background: linear-gradient(150deg, rgb(164, 164, 255), rgb(5, 5, 87));
   color: white;
   margin: 100px auto 0;
@@ -82,16 +82,19 @@ body {
 .details {
   display: flex;
   align-items: center;
+  flex-direction: row;
   justify-content: space-between;
   padding: 0 12px;
   margin-top: 50px;
 }
 .col {
   display: flex;
+ 
   align-items: center;
   text-align: left;
   border-radius: 5%;
   padding: 15px;
+  max-width: 80%;
   background-color: rgba(48, 48, 48, 0.196);
   box-shadow: 0 2px 5px rgba(19, 19, 58, 0.607);  
 }
@@ -125,9 +128,24 @@ body {
   background: linear-gradient(150deg, rgb(233, 233, 233), rgb(110, 110, 110));
 } */
 
-@media (max-width:400px) {
+@media (max-width:480px) {
   .card {
       width: 90%;
+  }
+  .search button{
+    width: 20%
+  }
+  .search input{
+    width: 90%;
+  }
+  .details .col{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 1rem; 
+  }
+  .details{
+    flex-direction: column;
+    
   }
 };
 
