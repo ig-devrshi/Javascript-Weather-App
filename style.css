@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: rgb(36, 36, 36);
+  background-color: rgb(24, 24, 24);
 }
 
 .card {
@@ -84,8 +84,8 @@ body {
   display: flex;
   align-items: center;
   flex-direction: row;
-  justify-content: flex-start;
-  padding: 0 12px;
+  justify-content: center;
+  padding: 0 0px;
   margin-top: 50px;
 }
 .col {
@@ -94,14 +94,14 @@ body {
   text-align: left;
   margin-right: 10px;
   border-radius: 5%;
-  padding: 15px;
+  padding: 25px;
   max-width: 80%;
-  background-color: rgba(48, 48, 48, 0.196);
+  background-color: rgba(0, 0, 0, 0.027);
   box-shadow: 0 2px 5px rgba(19, 19, 58, 0.607);  
 }
 .col img {
   width: 35px;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 .humid,
 .wind {
@@ -128,26 +128,26 @@ body {
 } */
 @media (max-width:480px) {
   .card {
-    width: 95%;
+    width: 90%;
+    margin-right: 2.2rem;
   }
   .search{
     width: 100%;
   }
   .search button{
-    width: 20%;
-    margin-right: 0;
+    margin-right: 0.5em;
   }
   .search input{
     width: 79%;
-    margin-left: 0;
+    margin-left: 0.5em;
   }
   .details .col{
     width: 90%;
-    padding: 10px;
+    padding: 12px;
     margin-bottom: 1rem; 
   }
   .details{
-    flex-direction: row;
+    justify-content: space-around;
   }
 };
 
