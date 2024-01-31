@@ -130,7 +130,7 @@ body {
 
 @media (max-width:480px) {
   .card {
-      width: 90%;
+      width: 100%;
   }
   .search button{
     width: 20%
