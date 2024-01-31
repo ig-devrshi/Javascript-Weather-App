@@ -14,7 +14,7 @@ body {
   max-width: 480px;
   background: linear-gradient(150deg, rgb(164, 164, 255), rgb(5, 5, 87));
   color: white;
-  margin: 100px auto 0;
+  margin: 100px auto ;
   border-radius: 20px;
   padding: 40px;
   text-align: center;
@@ -113,7 +113,7 @@ body {
 
 .display-weather{
   display: block;
-  backdrop-filter: blur(50px);
+  backdrop-filter: blur(50px);  
 }
 
 .error {
@@ -130,7 +130,7 @@ body {
 
 @media (max-width:480px) {
   .card {
-      width: 100%;
+      width: 90%;
   }
   .search button{
     width: 20%
