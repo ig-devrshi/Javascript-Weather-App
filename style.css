@@ -143,11 +143,11 @@ body {
   }
   .details .col{
     width: 90%;
-    padding: 12px;
+    padding: 10px;
     margin-bottom: 1rem; 
   }
   .details{
-    justify-content: space-around;
+    justify-content: center;
   }
 };
 
