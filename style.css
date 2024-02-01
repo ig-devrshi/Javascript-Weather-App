@@ -155,8 +155,20 @@ body {
   margin-top: 10px;
   display: none;
 }
-.clouds{
+/* .clouds{
   background: linear-gradient(150deg, rgb(173, 207, 215), rgb(88, 110, 115));
+} */
+
+footer{
+  font-size: 12px;
+  color: white;
+  margin: 3em;
+  text-align: center;
+  font-weight: 100;
+}
+
+footer>span{
+  font-weight: bold;
 }
 @media (max-width:480px) {
   .card {
